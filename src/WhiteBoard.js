@@ -1,6 +1,6 @@
 import React from 'react'
 import CourseList from "./components/CourseList";
-import CourseEditor from "./components/CourseEditor";
+import CourseEditor from "./containers/CourseEditor";
 import {BrowserRouter as Router, Link, Route} from 'react-router-dom';
 
 export default class WhiteBoard extends React.Component {

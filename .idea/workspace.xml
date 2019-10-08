@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2c9b8db3-d663-4f57-b893-7bf7bfdb5532" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WhiteBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/WhiteBoard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CourseEditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/CourseEditor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CourseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CourseList.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +37,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/containers" />
       <recent name="$PROJECT_DIR$/src/services" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src" />
@@ -64,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570405344126</updated>
-      <workItem from="1570405345456" duration="33424000" />
+      <workItem from="1570405345456" duration="35413000" />
     </task>
     <servers />
   </component>

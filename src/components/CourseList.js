@@ -41,11 +41,12 @@ export default class CourseList extends React.Component {
     deleteCourse = courseId => {
         console.log(courseId)
         this.setState(prevState => (
-            {
+             {
                 courses: this.service.deleteCourse(courseId)
             }
-            )
-         )
+
+        ))
+
     }
 
     render() {

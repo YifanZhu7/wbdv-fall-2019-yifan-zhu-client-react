@@ -1,7 +1,7 @@
 import React from 'react'
 import CourseService from "../services/CourseService";
-import ModuleListComponent from "./ModuleListComponent";
-import LessonTabComponent from "./LessonTabComponent";
+import ModuleListComponent from "../components/ModuleListComponent";
+import LessonTabComponent from "../components/LessonTabComponent";
 
 export default class CourseEditor extends React.Component {
     constructor(props) {
@@ -67,6 +67,7 @@ export default class CourseEditor extends React.Component {
                                 )
                             }</ul>
                         </div>
+
                     </div>
                 </div>
             </div>
