@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom";
 
-const CourseGridComponent = ({courses, deleteCourse}) =>
+const CourseGridComponent = ({courses, deleteCourse,}) =>
     <div>
         <h2>Course Grid</h2>
         <div className="card-deck">

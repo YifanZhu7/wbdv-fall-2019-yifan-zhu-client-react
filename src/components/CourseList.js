@@ -44,7 +44,6 @@ export default class CourseList extends React.Component {
              {
                 courses: this.service.deleteCourse(courseId)
             }
-
         ))
 
     }
