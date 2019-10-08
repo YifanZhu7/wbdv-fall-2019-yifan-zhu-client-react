@@ -1,0 +1,125 @@
+[
+  {
+    "id": "1",
+    "title": "Course 1",
+    "modules": [
+      {
+        "id": "11",
+        "title": "Module 1 1",
+        "lessons": [
+          {
+            "id": "111",
+            "title": "Lesson 1 1 1",
+            "topics": [
+              {"title": "Topic 1 1 1 1"}
+            ]
+          },
+          {
+            "id": "112",
+            "title": "Lesson 1 1 2",
+            "topics": [
+              {"title": "Topic 1 1 2 1"}
+            ]
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "title": "Module 1 2",
+        "lessons": [
+          {
+            "id": "121",
+            "title": "Lesson 1 2 1",
+            "topics": [
+              {"title": "Topic 1 2 1 1"}
+            ]
+          },
+          {
+            "id": "122",
+            "title": "Lesson 1 2 2",
+            "topics": [
+              {"title": "Topic 1 2 2 1"}
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Course 2",
+    "modules": [
+      {
+        "id": "21",
+        "title": "Module 2 1",
+        "lessons": [
+          {
+            "id": "211",
+            "title": "Lesson 2 1 1",
+            "topics": []
+          },
+          {
+            "id": "212",
+            "title": "Lesson 2 1 2",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "id": "22",
+        "title": "Module 2 2",
+        "lessons": [
+          {
+            "id": [],
+            "title": [],
+            "topics": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Course 3",
+    "modules": [
+      {
+        "id": "31",
+        "title": "Module 3 1",
+        "lessons": [
+          {
+            "id": [],
+            "title": [],
+            "topics": []
+          }
+        ]
+      },
+      {
+        "id": "32",
+        "title": "Module 3 2",
+        "lessons": [
+          {
+            "id": [],
+            "title": [],
+            "topics": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Course 4",
+    "modules": [
+      {
+        "id": [],
+        "title": [],
+        "lessons": [
+          {
+            "id": [],
+            "title": [],
+            "topics": []
+          }
+        ]}
+    ]
+  }
+]
