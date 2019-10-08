@@ -9,8 +9,14 @@ const LessonTabComponent = ({lessons, selectLesson}) =>
                     className="nav-item">
                     <a className="nav-link active" href="#">
                         {lesson.title}
+                        <button
+                            type="button" className="close" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                     </a>
+
                 </li>
+
             )
         }
     </ul>

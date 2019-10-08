@@ -23,4 +23,5 @@ export default class CourseService {
         this.courses = courses.filter(
             course => course.id !== courseId
         )
+
 }

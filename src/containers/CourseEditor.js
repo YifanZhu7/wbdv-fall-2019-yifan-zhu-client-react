@@ -2,6 +2,7 @@ import React from 'react'
 import CourseService from "../services/CourseService";
 import ModuleListComponent from "../components/ModuleListComponent";
 import LessonTabComponent from "../components/LessonTabComponent";
+import courses from "../courses";
 
 export default class CourseEditor extends React.Component {
     constructor(props) {
@@ -12,6 +13,9 @@ export default class CourseEditor extends React.Component {
         const module = course.modules[0]
         const lesson = module.lessons[0]
         this.state = {
+            newModule: {
+                title: ''
+            },
             lesson: lesson,
             module: module,
             course: course
@@ -34,6 +38,39 @@ export default class CourseEditor extends React.Component {
         )
     }
 
+    newModuleChanged = (event) =>
+        this.setState({
+            newModule: {
+                title: event.target.value
+            }
+        })
+
+    createModule = () => {
+        this.setState(prevState => {
+            const module = {
+                title: prevState.newModule.title,
+                id: (new Date()).getTime()
+            };
+            module: this.modules.push(module);
+            return{
+                modules: this.modules
+            }
+    })}
+
+    // deleteModule = moduleId => {
+    //     console.log(moduleId)
+    //     this.setState(prevState => ({
+    //         newModule: {
+    //             title: ''
+    //         },
+    //         modules: [
+    //             ... prevState.modules,
+    //             prevState.newModule
+    //         ]
+    //     }))
+    // }
+
+
     render() {
         return (
             <div>
@@ -45,9 +82,18 @@ export default class CourseEditor extends React.Component {
                 <h2>CourseEditor:
                     {this.state.course.title}
                 </h2>
+                <input onChange={this.newModuleChanged}
+                       value={this.state.newModule.title}/>
+                <button onClick={this.createModule}>
+                    Create Module
+                </button>
+                <button onClick={this.updateModule}>
+                    Update Module
+                </button>
                 <div className="row">
                     <div className="col-3">
                         <ModuleListComponent
+                            deleteModule={this.deleteModule}
                             selectModule={this.selectModule}
                             modules={this.state.course.modules}/>
                     </div>
